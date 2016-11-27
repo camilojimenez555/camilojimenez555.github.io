@@ -1,0 +1,247 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+/*---Estilos Generalea---*/
+body{
+	background:#333333;
+	font-family:Franklin Gothic Book, Franklin Gothic Heavy, LibreFranklin;
+
+}
+a{text-decoration: none;color:#fff;}
+a:hover{text-decoration:underline;}
+
+#wrap{
+	width:960px;
+	margin:auto;
+	clear:both;
+
+}
+
+/*---Header---*/
+header{
+	width:100%;
+	float:left;
+	background:#fff;
+	box-shadow:0px 3px 5px #000; 
+	-moz-box-shadow:0px 3px 5px #000;
+	-webkit-box-shadow:0px 3px 5px #000;
+}
+#subheader{
+	width:960px;
+	margin:auto;
+}
+#logotipo{
+	float:left;
+	width:500px;
+	padding:10px 0px;	
+}
+/*---Menú---*/
+header #subheader nav{
+	float:left;
+	width:460px;
+	padding:50px 0px;
+	text-align:right;	
+}
+header #subheader nav ul li{
+	display:inline;
+	font-family:Franklin Gothic Book;
+}
+header #subheader nav ul li a{
+	color:#000;
+	font-size:16px;
+	padding:10px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	webkit-border-radius:2px;
+}
+header #subheader nav ul li a:hover{
+	color:#fff;
+	background:#005883;
+	text-decoration:none;
+}
+
+/*---Menú---*/
+#main{
+	width:100%;
+	margin: 20px 0px 0px 0px;
+	float: left;	
+}
+/*---Slideshow---*/
+#Slideshow{
+	width:920px;
+	height:260px;
+	float:left;
+	background:#000;
+	border:solid 20px #fff;
+	margin-bottom:10px;	
+}
+
+/*---OBJETO---*/
+#OBJETO{
+	width:920px;
+	float:left;
+	background:#005883;
+	padding:20px;
+	margin:20px 0px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow:0px 2px 2px #000; 
+	-moz-box-shadow:0px 2px 2px #000;
+	-webkit-box-shadow:0px 2px 2px #000;
+}
+#Objeto article h2{
+	font-family:Franklin Gothic book;
+	color:#fff;
+	font-size:40px;
+	margin-bottom:10px;	
+	text-align:center;
+
+}
+#Objeto article {
+		color:#fff;	
+		text-align:justify;
+}
+/*---CONTENIDO---*/
+#Contenido{
+	width:700px;
+	float:left;		
+}
+#Contenido article{
+	float:left;
+	margin-bottom:20px;	
+}	
+#Contenido article .titulo{
+	font-size:18px;
+	font-family:Franklin Gothic book;
+	color:#fff;
+	margin-bottom:5px;	
+}
+#Contenido article .software3{
+	width:200px;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+#Contenido article {
+	color:#fff;
+	font-size:14px;
+}
+#Contenido article .ova6{
+	width:200px;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+/*---SIDEBAR---*/
+aside{
+	width:220px;
+	height:350px;
+	float:left;
+	background:#b3b3b3;
+	padding:10px 10px 0px 10px;
+	margin-left:20px ;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow:0px 2px 2px #000; 
+	-moz-box-shadow:0px 2px 2px #000;
+	-webkit-box-shadow:0px 2px 2px #000;	
+}
+aside .widget{
+	margin-bottom:10px;
+	float:left;
+	
+}
+aside .widget h4{
+	background:#fff;
+	color:#808080;
+	width:220px;
+	padding:10px 0px;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:10px;	
+}
+aside .widget a{color:#fff;
+
+}
+aside .widget ul li {
+    margin-bottom:10px;
+    font-size:12px;
+    
+
+}
+aside .widget img {width:220px}
+
+/*---FOOTER---*/
+footer #unad{
+	width:100%;
+	float:left;
+	clear:both;
+	height:200px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#808080+1,b3b3b3+100,1c1c1c+100,595959+100,808080+100,2b2b2b+100,474747+100,2c2c2c+100,1c1c1c+100,000000+100,1c1c1c+100,474747+100,111111+100,666666+100,2b2b2b+100,2b2b2b+100 */
+background: #808080; /* Old browsers */
+background: -moz-linear-gradient(top,  #808080 1%, #b3b3b3 100%, #1c1c1c 100%, #595959 100%, #808080 100%, #2b2b2b 100%, #474747 100%, #2c2c2c 100%, #1c1c1c 100%, #000000 100%, #1c1c1c 100%, #474747 100%, #111111 100%, #666666 100%, #2b2b2b 100%, #2b2b2b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #808080 1%,#b3b3b3 100%,#1c1c1c 100%,#595959 100%,#808080 100%,#2b2b2b 100%,#474747 100%,#2c2c2c 100%,#1c1c1c 100%,#000000 100%,#1c1c1c 100%,#474747 100%,#111111 100%,#666666 100%,#2b2b2b 100%,#2b2b2b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #808080 1%,#b3b3b3 100%,#1c1c1c 100%,#595959 100%,#808080 100%,#2b2b2b 100%,#474747 100%,#2c2c2c 100%,#1c1c1c 100%,#000000 100%,#1c1c1c 100%,#474747 100%,#111111 100%,#666666 100%,#2b2b2b 100%,#2b2b2b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-9 */
+
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow:0px 2px 2px #000; 
+	-moz-box-shadow:0px 2px 2px #000;
+	-webkit-box-shadow:0px 2px 2px #000;	
+}
+footer #acerca-de{
+	width:100%;
+	;
+	float:left;
+	clear:both;
+border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow:0px 2px 2px #000; 
+	-moz-box-shadow:0px 2px 2px #000;
+	-webkit-box-shadow:0px 2px 2px #000;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#808080+1,b3b3b3+100,1c1c1c+100,595959+100,808080+100,2b2b2b+100,474747+100,2c2c2c+100,1c1c1c+100,000000+100,1c1c1c+100,474747+100,111111+100,666666+100,2b2b2b+100,2b2b2b+100 */
+background: #808080; /* Old browsers */
+background: -moz-linear-gradient(top,  #808080 1%, #b3b3b3 100%, #1c1c1c 100%, #595959 100%, #808080 100%, #2b2b2b 100%, #474747 100%, #2c2c2c 100%, #1c1c1c 100%, #000000 100%, #1c1c1c 100%, #474747 100%, #111111 100%, #666666 100%, #2b2b2b 100%, #2b2b2b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #808080 1%,#b3b3b3 100%,#1c1c1c 100%,#595959 100%,#808080 100%,#2b2b2b 100%,#474747 100%,#2c2c2c 100%,#1c1c1c 100%,#000000 100%,#1c1c1c 100%,#474747 100%,#111111 100%,#666666 100%,#2b2b2b 100%,#2b2b2b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #808080 1%,#b3b3b3 100%,#1c1c1c 100%,#595959 100%,#808080 100%,#2b2b2b 100%,#474747 100%,#2c2c2c 100%,#1c1c1c 100%,#000000 100%,#1c1c1c 100%,#474747 100%,#111111 100%,#666666 100%,#2b2b2b 100%,#2b2b2b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-9 */
+
+}	
+
+footer section{
+	width:440px;
+	float:right;
+	
+}
+footer #acerca-de h5{
+	font-family:Franklin Gothic Heavy;
+	font-size:20px;
+	color:#333333;
+	margin-bottom:5px;
+	text-align:center;
+
+}
+
+footer #unad article p ul li{
+	width:220px;
+	height:60px;	
+	float:left;	
+	
+}	
+
+footer #unad article  {
+color:#fff;
+font-size:10px;
+text-align:center;
+margin-bottom:20px;
+}
+#unad1 img{
+	float:center;
+}
+
+
