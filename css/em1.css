@@ -1,4 +1,4 @@
-﻿@import url('reset.css');
+@import url('reset.css');
 @import url('fuentes.css');
 
 /*---Estilos Generalea---*/
@@ -36,11 +36,14 @@ header{
 	padding:10px 0px;	
 }
 /*---Menú---*/
+
+
 header #subheader nav{
 	float:left;
 	width:460px;
-	padding:50px 0px;
+	padding:80px 0px;
 	text-align:right;	
+
 }
 header #subheader nav ul li{
 	display:inline;
@@ -49,17 +52,28 @@ header #subheader nav ul li{
 header #subheader nav ul li a{
 	color:#000;
 	font-size:16px;
-	padding:10px;
+	padding:5px;
 	border-radius:2px;
 	-moz-border-radius:2px;
 	webkit-border-radius:2px;
+	display:block;
 }
+.menu>li{
+	float :left;
+}
+.menu li ul{
+	display:none;
+	position: absolute;
+	}
+.menu li:hover > ul{
+	display:block;
+}
+
 header #subheader nav ul li a:hover{
 	color:#fff;
 	background:#005883;
 	text-decoration:none;
 }
-
 
 /*---Menú---*/
 #main{
@@ -111,6 +125,7 @@ header #subheader nav ul li a:hover{
 #Contenido article{
 	float:left;
 	margin-bottom:20px;	
+	
 }	
 #Contenido article .titulo{
 	font-size:18px;
