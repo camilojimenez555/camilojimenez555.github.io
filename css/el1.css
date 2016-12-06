@@ -1,4 +1,4 @@
-@import url('reset.css');
+﻿@import url('reset.css');
 @import url('fuentes.css');
 
 /*---Estilos Generalea---*/
@@ -134,7 +134,7 @@ header #subheader nav ul li a:hover{
 	margin-bottom:5px;	
 }
 #Contenido article .software3{
-	width:400px;
+	width:440px;
 	float:left;
 	margin:0px 10px 10px 0px;
 }
