@@ -93,7 +93,7 @@ header #subheader nav ul li a:hover{
 
 /*---OBJETO---*/
 #OBJETO{
-	width:960px;
+	width:920px;
 	float:left;
 	background:#005883;
 	padding:20px;
@@ -134,7 +134,7 @@ header #subheader nav ul li a:hover{
 	margin-bottom:5px;	
 }
 #Contenido article .software3{
-	width:400px;
+	width:440px;
 	float:left;
 	margin:0px 10px 10px 0px;
 }
