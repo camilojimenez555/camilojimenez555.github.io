@@ -1,4 +1,4 @@
-@import url('reset.css');
+﻿@import url('reset.css');
 @import url('fuentes.css');
 
 /*---Estilos Generalea---*/
@@ -40,7 +40,7 @@ header{
 
 header #subheader nav{
 	float:left;
-	width:460px;
+	width:500px;
 	padding:80px 0px;
 	text-align:right;	
 
