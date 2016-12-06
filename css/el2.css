@@ -124,7 +124,7 @@ header #subheader nav ul li a:hover{
 }
 #Contenido article{
 	float:left;
-	margin-bottom:20px;	
+	margin-bottom:0px;	
 	text-align:justify
 }	
 #Contenido article .titulo{
