@@ -1,4 +1,4 @@
-@import url('reset.css');
+﻿@import url('reset.css');
 @import url('fuentes.css');
 
 /*---Estilos Generalea---*/
@@ -119,12 +119,12 @@ header #subheader nav ul li a:hover{
 }
 /*---CONTENIDO---*/
 #Contenido{
-	width:920px;
+	width:960px;
 	float:left;		
 }
 #Contenido article{
 	float:left;
-	margin-bottom:20px;	
+	margin-bottom:0px;	
 	text-align:justify
 }	
 #Contenido article .titulo{
@@ -134,7 +134,7 @@ header #subheader nav ul li a:hover{
 	margin-bottom:5px;	
 }
 #Contenido article .software3{
-	width:400px;
+	width:440px;
 	float:left;
 	margin:0px 10px 10px 0px;
 }
@@ -143,9 +143,9 @@ header #subheader nav ul li a:hover{
 	font-size:14px;
 }
 #Contenido article .ova6{
-	width:920px;
+	width:960px;
 	float:left;
-	margin:0px 10px 10px 0px;
+	margin:0px 0px 10px 0px;
 }
 /*---SIDEBAR---*/
 aside{
