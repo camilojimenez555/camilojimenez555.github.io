@@ -36,6 +36,8 @@ header{
 	padding:10px 0px;	
 }
 /*---Menú---*/
+
+
 header #subheader nav{
 	float:left;
 	width:460px;
@@ -123,6 +125,7 @@ header #subheader nav ul li a:hover{
 #Contenido article{
 	float:left;
 	margin-bottom:20px;	
+	
 }	
 #Contenido article .titulo{
 	font-size:18px;
