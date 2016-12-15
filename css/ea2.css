@@ -1,4 +1,4 @@
-@import url('reset.css');
+﻿@import url('reset.css');
 @import url('fuentes.css');
 
 /*---Estilos Generalea---*/
@@ -58,16 +58,7 @@ header #subheader nav ul li a{
 	webkit-border-radius:2px;
 	display:block;
 }
-.menu>li{
-	float :left;
-}
-.menu li ul{
-	display:none;
-	position: absolute;
-	}
-.menu li:hover > ul{
-	display:block;
-}
+
 
 header #subheader nav ul li a:hover{
 	color:#fff;
@@ -75,12 +66,8 @@ header #subheader nav ul li a:hover{
 	text-decoration:none;
 }
 
-/*---Menú---*/
-#main{
-	width:100%;
-	margin: 20px 0px 0px 0px;
-	float: left;	
-}
+
+
 /*---Slideshow---*/
 #Slideshow{
 	width:920px;
@@ -115,11 +102,12 @@ header #subheader nav ul li a:hover{
 }
 #Objeto article {
 		color:#fff;	
-		text-align:justify;
+		text-align:center;
+                font-size:40px;
 }
 /*---CONTENIDO---*/
 #Contenido{
-	width:700px;
+	width:960px;
 	float:left;		
 }
 #Contenido article{
@@ -127,20 +115,22 @@ header #subheader nav ul li a:hover{
 	margin-bottom:20px;	
 	
 }	
+	
 #Contenido article .titulo{
-	font-size:18px;
+	font-size: 24px;
 	font-family:Franklin Gothic book;
 	color:#fff;
-	margin-bottom:5px;	
+	margin-bottom:5px;
+        text-align:center;	
 }
 #Contenido article .software3{
-	width:200px;
+	width:960px;
 	float:left;
-	margin:0px 10px 10px 0px;
+	margin:10px 10px 10px 0px;
 }
 #Contenido article {
 	color:#fff;
-	font-size:14px;
+	font-size:20px;
 }
 #Contenido article .ova6{
 	width:200px;

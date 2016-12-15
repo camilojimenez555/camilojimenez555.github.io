@@ -1,4 +1,4 @@
-@import url('reset.css');
+﻿@import url('reset.css');
 @import url('fuentes.css');
 
 /*---Estilos Generalea---*/
@@ -116,10 +116,11 @@ header #subheader nav ul li a:hover{
 #Objeto article {
 		color:#fff;	
 		text-align:justify;
+                font-size:20px;
 }
 /*---CONTENIDO---*/
 #Contenido{
-	width:700px;
+	width:960px;
 	float:left;		
 }
 #Contenido article{
@@ -133,17 +134,47 @@ header #subheader nav ul li a:hover{
 	color:#fff;
 	margin-bottom:5px;	
 }
-#Contenido article .software3{
-	width:200px;
+#Contenido article .DFD{
+	width:960px;
 	float:left;
 	margin:0px 10px 10px 0px;
 }
 #Contenido article {
 	color:#fff;
-	font-size:14px;
+	font-size: 20px;
 }
-#Contenido article .ova6{
-	width:200px;
+#Contenido article .N0{
+	width:400px;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+#Contenido article .N1{
+	width:400px;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+#Contenido article .condicion{
+	width:400px;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+#Contenido article .controlflujo{
+	width:400px;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+#Contenido article .curva{
+	width:400px;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+#Contenido article .dataflujo{
+	width:400px;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+#Contenido article .modulo{
+	width:400px;
 	float:left;
 	margin:0px 10px 10px 0px;
 }

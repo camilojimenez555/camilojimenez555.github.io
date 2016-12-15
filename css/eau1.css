@@ -1,4 +1,4 @@
-@import url('reset.css');
+﻿@import url('reset.css');
 @import url('fuentes.css');
 
 /*---Estilos Generalea---*/
@@ -119,19 +119,20 @@ header #subheader nav ul li a:hover{
 }
 /*---CONTENIDO---*/
 #Contenido{
-	width:700px;
+	width:960px;
 	float:left;		
 }
 #Contenido article{
 	float:left;
 	margin-bottom:20px;	
-	
+	width:960px;
 }	
 #Contenido article .titulo{
-	font-size:18px;
+	font-size:40px;
 	font-family:Franklin Gothic book;
 	color:#fff;
-	margin-bottom:5px;	
+	margin-bottom:5px;
+text-align:center	
 }
 #Contenido article .software3{
 	width:200px;
@@ -140,52 +141,13 @@ header #subheader nav ul li a:hover{
 }
 #Contenido article {
 	color:#fff;
-	font-size:14px;
+	font-size:20px;
 }
-#Contenido article .ova6{
-	width:200px;
-	float:left;
-	margin:0px 10px 10px 0px;
-}
+
+
 /*---SIDEBAR---*/
-aside{
-	width:220px;
-	height:350px;
-	float:left;
-	background:#b3b3b3;
-	padding:10px 10px 0px 10px;
-	margin-left:20px ;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	box-shadow:0px 2px 2px #000; 
-	-moz-box-shadow:0px 2px 2px #000;
-	-webkit-box-shadow:0px 2px 2px #000;	
-}
-aside .widget{
-	margin-bottom:10px;
-	float:left;
-	
-}
-aside .widget h4{
-	background:#fff;
-	color:#808080;
-	width:220px;
-	padding:10px 0px;
-	text-align:center;
-	font-weight:bold;
-	margin-bottom:10px;	
-}
-aside .widget a{color:#fff;
 
-}
-aside .widget ul li {
-    margin-bottom:10px;
-    font-size:12px;
-    
 
-}
-aside .widget img {width:220px}
 
 /*---FOOTER---*/
 footer #unad{
